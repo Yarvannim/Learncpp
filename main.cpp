@@ -1,11 +1,10 @@
 #include <iostream>
 
-#include "exercises/Exercise1dot5.h"
-#include "exercises/exercise1_11.h"
+#include "exercises/chapter2/chapter2_4.h"
+
 
 int main() {
-    std::cout << "Hello World!\n";
-    exercise1_11 exercise1_11;
-    exercise1_11.run();
+    chapter2_4 exercise;
+    exercise.run();
     return 0;
 }
