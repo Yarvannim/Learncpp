@@ -9,7 +9,7 @@ void chapter2_4::run() {
    std::cout << "Enter an integer:";
    std::cin >> input; 
 
-   //Dont use variables for stuff like this, it is unneeded bloat
+   //Don't use variables for stuff like this, it is unneeded bloat
    //int doublednumber {doubleNumber(input)};
    std::cout << "Your doubled number is: " << doubleNumber(input) << "\n";
 }

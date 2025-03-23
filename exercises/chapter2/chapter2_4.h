@@ -10,8 +10,10 @@
 class chapter2_4 {
 public:
   void run();
+private:
   int doubleNumber(int x);
 };
+
 
 
 
