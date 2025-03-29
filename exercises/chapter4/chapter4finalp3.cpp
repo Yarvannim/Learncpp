@@ -5,6 +5,8 @@
 #include "chapter4finalp3.h"
 #include <iostream>
 
+constexpr double GRAVITY{9.8};
+
 double chapter4finalp3::getTowerHeight() {
     std::cout << "Enter the tower height: ";
     double towerHeight {};
@@ -12,8 +14,7 @@ double chapter4finalp3::getTowerHeight() {
     return towerHeight;
 }
 double chapter4finalp3::calculateBallHeight(double towerHeight, int seconds) {
-    double gravity {9.8};
-    double fallDistance { gravity * (seconds * 2) / 2 };
+    double fallDistance { GRAVITY * (seconds * 2) / 2 };
     double ballHeight { towerHeight - fallDistance };
     return (ballHeight > 0) ? ballHeight : 0;
 }

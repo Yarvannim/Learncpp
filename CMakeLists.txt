@@ -19,4 +19,6 @@ add_executable(learncpp main.cpp
         exercises/chapter4/chapter4finalp2.cpp
         exercises/chapter4/chapter4finalp2.h
         exercises/chapter4/chapter4finalp3.cpp
-        exercises/chapter4/chapter4finalp3.h)
+        exercises/chapter4/chapter4finalp3.h
+        exercises/chapter5/Chapter5_7.cpp
+        exercises/chapter5/Chapter5_7.h)
