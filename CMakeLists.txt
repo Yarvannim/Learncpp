@@ -13,4 +13,8 @@ add_executable(learncpp main.cpp
         exercises/chapter2/chapter2final.cpp
         exercises/chapter2/chapter2final.h
         exercises/chapter2/chapter2finalIO.cpp
-        exercises/chapter2/chapter2finalIO.h)
+        exercises/chapter2/chapter2finalIO.h
+        exercises/chapter4/chapter4_12.cpp
+        exercises/chapter4/chapter4_12.h
+        exercises/chapter4/chapter4finalp2.cpp
+        exercises/chapter4/chapter4finalp2.h)
