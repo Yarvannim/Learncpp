@@ -7,19 +7,19 @@
 #include <math.h>
 #include <valarray>
 
-double getDouble() {
+double chapter4finalp2::getDouble() {
     std::cout << "Enter a double value: \n";
     double x {};
     std::cin >> x;
     return x;
 }
-char getOperator() {
+char chapter4finalp2::getOperator() {
     std::cout << "Enter an operator: \n";
     char op {};
     std::cin >> op;
     return op;
 }
-void printResult(double x, double y, char operation) {
+void chapter4finalp2::printResult(double x, double y, char operation) {
     double result {};
     switch (operation) {
         case '+': result = x + y; break;
@@ -34,5 +34,5 @@ void chapter4finalp2::run() {
     double x { getDouble() };
     double y { getDouble() };
     char op { getOperator() };
-    printResult(x, y, op);f
+    printResult(x, y, op);
 }
