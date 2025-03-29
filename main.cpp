@@ -1,10 +1,10 @@
 #include <iostream>
 
-#include "exercises/chapter5/Chapter5_7.h"
+#include "exercises/chapter5/chapter5Final.h"
 
 
 int main() {
-    Chapter5_7 chapter5;
+    chapter5Final chapter5;
     chapter5.run();
     return 0;
 }
